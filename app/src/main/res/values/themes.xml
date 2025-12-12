@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.PorVida" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Paleta Rojo / Verde -->
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/red_container</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <item name="colorSecondary">@color/green_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/green_container</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
+
+        <item name="android:statusBarColor">@color/red_dark</item>
+        <item name="android:navigationBarColor">@color/red_dark</item>
+    </style>
+</resources>

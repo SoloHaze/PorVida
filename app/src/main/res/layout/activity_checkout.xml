@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".views.CheckoutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="Pago de plan"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#8B0000" />
+
+    <TextView
+        android:id="@+id/tvPlanInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plan: BASICO - $13.500"
+        android:textColor="#CCCCCC"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGooglePay"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Pagar con Google Pay"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCurrentPlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu plan actual: --"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona un nuevo plan"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnPlanBasico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plan BASICO - Funcionalidades estándar"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnPlanBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plan BLACK - Más beneficios"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnPlanUltra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plan ULTRA - Máxima cobertura"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnClosePlanes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar"/>
+    </LinearLayout>
+</ScrollView>

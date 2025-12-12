@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Icono estilo emoji 💪: trazos más gruesos y formas simplificadas -->
+    <!-- Antebrazo y bíceps curvado -->
+    <path
+        android:pathData="M28,62 C30,74 40,82 52,80 C66,78 78,66 78,52 C78,42 72,34 66,30 L66,26 C66,22 64,20 60,20 L54,20 C50,20 48,22 48,26 L48,46 C48,50 46,54 42,58 C38,62 34,64 34,68"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Puño cerrado -->
+    <path
+        android:pathData="M48,26 L66,26 L66,24 C66,22 64,20 62,20 L52,20 C50,20 48,22 48,24 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round" />
+    <!-- Marca interna del bíceps (sombra línea) -->
+    <path
+        android:pathData="M54,48 C56,56 64,58 70,50"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- Pequeños destellos para energía -->
+    <path
+        android:pathData="M82,34 L88,32"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M80,40 L86,42"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+</vector>

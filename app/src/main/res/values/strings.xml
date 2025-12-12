@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">PorVida</string>
+    <string name="google_maps_key" translatable="false">AIzaSyDxyycYst5z4R9jwJeL2laOSXoaFdSYqLw</string>
+    <!-- Drawer -->
+    <string name="drawer_my_plans">Mis Planes</string>
+    <string name="drawer_change_plan">Cambiar / Adquirir Plan</string>
+    <string name="drawer_locations">Nuestras Sedes</string>
+    <string name="drawer_payments">Pagos</string>
+    <string name="drawer_companions">Acompañantes</string>
+    <string name="drawer_classes">Clases</string>
+    <string name="drawer_chatbot">Asistente</string>
+    <string name="drawer_records">Récords</string>
+    <string name="drawer_logout">Salir</string>
+    <!-- Classes UI -->
+    <string name="classes_title">Clases</string>
+    <string name="class_duration">Duración: %1$d min</string>
+    <string name="class_capacity">Cupos: %1$d/%2$d</string>
+    <string name="class_enroll">Inscribirse</string>
+    <string name="class_cancel">Cancelar</string>
+    <string name="class_wait">Esperar cupo</string>
+    <string name="class_accept_spot">Aceptar cupo (5 min)</string>
+    <string name="class_machines_label">Entrenamiento en máquinas</string>
+    <string name="class_enroll_ok">Inscripción exitosa</string>
+    <string name="class_cancel_ok">Cancelado</string>
+    <!-- Notifications -->
+    <string name="notif_channel_name">Esperas de cupo</string>
+    <string name="notif_channel_desc">Notificaciones de espera de cupos</string>
+    <string name="notif_accept_now">Aceptar ahora</string>
+    <string name="notif_seat_released_title">Se liberó un cupo</string>
+    <string name="notif_seat_released_message">Tienes 5 minutos para aceptar tu cupo</string>
+
+    <!-- Class detail labels and messages -->
+    <string name="label_teacher">Profesor</string>
+    <string name="label_sede">Sede</string>
+    <string name="class_title_crossfit">Crossfit</string>
+    <string name="class_title_workbody">WorkBody</string>
+    <string name="class_title_ritmo">Ritmo</string>
+    <string name="class_datetime">Fecha: %1$s</string>
+    <string name="class_wod">WOD: %1$s</string>
+    <string name="toast_enroll_success">Inscripción exitosa</string>
+    <string name="toast_cancel_success">Cancelado</string>
+    <string name="toast_accept_success">Cupo aceptado</string>
+    <!-- Chatbot -->
+    <string name="chatbot_title">Asistente PorVida</string>
+    <string name="chatbot_pecho">Pecho</string>
+    <string name="chatbot_espalda">Espalda</string>
+    <!-- Records -->
+    <string name="records_title">Récords de entrenamiento</string>
+    <string name="records_exercise">Ejercicio</string>
+    <string name="records_weight">Peso (kg)</string>
+    <string name="records_reps">Reps</string>
+    <string name="records_time">Tiempo logrado (mm:ss)</string>
+    <string name="records_save">Guardar</string>
+    <string name="records_edit">Editar</string>
+    <string name="records_delete">Eliminar</string>
+    <string name="records_update">Guardar</string>
+    <string name="records_cancel">Cancelar</string>
+    <string name="saved_ok">Guardado</string>
+
+    <!-- Records - categories -->
+    <string name="cat_upper">Tren superior</string>
+    <string name="cat_lower">Tren inferior</string>
+    <string name="cat_abs">Abdominales</string>
+    <string name="cat_cardio">Cardio</string>
+    <string name="upper_hombro">Hombro</string>
+    <string name="upper_pectorales">Pectorales</string>
+    <string name="upper_brazos">Brazos (Bíceps y Tríceps)</string>
+    <string name="upper_espalda">Espalda</string>
+    <string name="lower_gluteos">Glúteos</string>
+    <string name="lower_cuadriceps">Cuádriceps</string>
+    <string name="lower_femorales">Femorales</string>
+    <string name="lower_pantorrillas">Pantorrillas</string>
+    <string name="cardio_remadora">Remadora</string>
+    <string name="cardio_trotadora">Trotadora</string>
+    <string name="cardio_bici">Bici</string>
+    <string name="cardio_cuerda">Saltos de cuerda</string>
+    <string name="cardio_jumping">Jumping</string>
+    <string name="cardio_burpees">Burpees</string>
+
+    <!-- Dashboard buttons (optional text overrides) -->
+    <string name="dash_classes">Clases</string>
+    <string name="dash_chatbot">Asistente</string>
+    <string name="dash_records">Récords</string>
+</resources>

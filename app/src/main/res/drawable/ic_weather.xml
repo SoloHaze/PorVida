@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Simple sun + cloud icon -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M7,11a4,4 0 1,1 8,0 4,4 0 1,1 -8,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M5,18c0,-2 1.5,-3.5 3.5,-3.5h6c1.9,0 3.5,1.6 3.5,3.5 0,1.1 -0.9,2 -2,2H7c-1.1,0 -2,-0.9 -2,-2z"/>
+</vector>
