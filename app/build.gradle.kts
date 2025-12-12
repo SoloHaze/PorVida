@@ -23,6 +23,23 @@ android {
         manifestPlaceholders += mapOf("WEATHER_API_KEY" to "")
     }
 
+    // Signing configuration for release (values come from gradle.properties)
+    val releaseStoreFile: String? = project.findProperty("RELEASE_STORE_FILE") as String?
+    val releaseStorePassword: String? = project.findProperty("RELEASE_STORE_PASSWORD") as String?
+    val releaseKeyAlias: String? = project.findProperty("RELEASE_KEY_ALIAS") as String?
+    val releaseKeyPassword: String? = project.findProperty("RELEASE_KEY_PASSWORD") as String?
+
+    signingConfigs {
+        create("release") {
+            if (!releaseStoreFile.isNullOrEmpty()) {
+                storeFile = file(releaseStoreFile)
+                storePassword = releaseStorePassword
+                keyAlias = releaseKeyAlias ?: ""
+                keyPassword = releaseKeyPassword
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -30,6 +47,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {
